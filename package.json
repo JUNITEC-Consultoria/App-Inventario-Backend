@@ -1,0 +1,46 @@
+{
+	"name": "app-inventario-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --ignore 'sessions/' server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"aes256": "^1.0.4",
+		"axios": "^0.21.1",
+		"body-parser": "^1.19.0",
+		"chai": "^4.3.4",
+		"connect-memjs": "^0.2.1",
+		"connect-mongo": "^3.2.0",
+		"cors": "^2.8.5",
+		"crypto": "^1.0.1",
+		"dotenv": "^16.0.3",
+		"exceljs": "^4.2.0",
+		"express": "^4.17.1",
+		"express-session": "^1.17.1",
+		"extract-domain": "^2.2.1",
+		"fetch": "^1.1.0",
+		"file-saver": "^2.0.5",
+		"form-data": "^3.0.0",
+		"formidable": "^1.2.2",
+		"fs": "0.0.1-security",
+		"get-domain-url": "0.0.2",
+		"googleapis": "^67.0.0",
+		"imgur": "^0.3.1",
+		"mongoose": "^5.10.9",
+		"mongoose-paginate": "^5.0.3",
+		"node-blob": "0.0.2",
+		"node-fetch": "^2.6.1",
+		"node-xlsx": "^0.15.0",
+		"nodemon": "^2.0.6",
+		"psl": "^1.8.0",
+		"require-dir": "^1.2.0"
+	},
+	"engines": {
+		"node": "14.14.0"
+	}
+}
